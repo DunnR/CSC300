@@ -258,7 +258,7 @@ public class LinkedList
 		if(head == null)		
 		{
 
-		throw new Exception("Can Not Remove Front: Empty List");
+		throw new Exception("Can Not Remove At Index: " + index);
 
 		}
 		else
