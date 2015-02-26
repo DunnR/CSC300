@@ -5,17 +5,19 @@ public class Driver {
 		
 		LinkedList ll = new LinkedList();
 		
-		ll.addEnd(6);
-		ll.addEnd(4);
-		ll.addEnd(7);
-		ll.addEnd(11);
-		ll.addEnd(5);
-		ll.addEnd(1);
-		ll.addEnd(22);
-		ll.addEnd(9);
-		ll.removeAtIndex(6);
-		ll.display();
+		Stack s = new Stack();
 		
+		s.addFront(4);
+		s.addFront(3);
+		s.addFront(2);
+		s.addFront(1);
+		s.getAtIndex();
+		s.removeFront();
+		s.getAtIndex();
+		s.removeFront();
+		s.getAtIndex();
+		s.removeFront();
+		s.getAtIndex();
 		
 		
 	}

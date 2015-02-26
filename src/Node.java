@@ -2,6 +2,8 @@ public class Node
 {
 
 	private Node nextNode;
+	
+	private Node prevNode;
 
 	private int payload;
 
@@ -12,10 +14,24 @@ public class Node
 		this.payload = payload;
 
 		this.nextNode = null;
+		
+		this.prevNode = null;
 
 	}	
 
- 
+	public Node getPrevNode()
+	{
+		
+		return this.prevNode;
+		
+	}
+	
+	public void setPrevNode(Node prevNode) 
+	{
+
+		this.prevNode = prevNode;
+
+	}
 
 	public Node getNextNode() 
 	{
