@@ -35,19 +35,20 @@ public class Stack
 		
 		 Node currNode = head;
 		 
-		 head = head.getNextNode();
+		 head = head.getNextNode(); //pointing head to the node after head
 		
-		 currNode.setNextNode(null);
+		 currNode.setNextNode(null); //pointing heads original node to nothing
 	
 		
 	}
 	
-	public void getAtIndex()
+	public int getAtIndex()
 	{
 		Node currNode = head;
 
 		System.out.println(currNode.getPayload());
 		
+		return currNode.getPayload();
 	}
 	
 }
